@@ -1,0 +1,36 @@
+html {
+    background-color: antiquewhite;
+}
+h1 {
+    background-color:cadetblue;
+}
+h2 {
+    background-color:cadetblue;
+}
+ul li {
+    color: rgb(0, 0, 0);
+    font-size: 26px
+}
+ol li {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+}
+.typography {
+    font-family: 'Quicksand', sans-serif;
+}
+a {
+    font-size: 30px;
+    color: black;
+}
+.Whatsapp {
+    color: rgb(0, 180, 0);
+}
+.Facebook {
+    color: rgb(0, 0, 190);
+}
+.Instagram {
+    color: rgb(225, 140, 225);
+}
+.Youtube {
+    color: red;
+}
