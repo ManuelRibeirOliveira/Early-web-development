@@ -4,10 +4,10 @@ html {
 
 .navtab {
     position: fixed;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(100, 130, 0);
     height: 100px;
     width: 1880px;
-    border: 1px solid black;
+    border: 2px solid rgb(255, 255, 0);
     padding: 20px 0px 0px 0px;
     margin: -28px 0px 0px -11px;
     z-index: 0;
@@ -23,6 +23,7 @@ h1 {
 }
 
 .limit {
+    background-color: rgb(180, 0, 0);
     position: absolute;
     width: 1843px;
     height: 2000px;
@@ -37,12 +38,12 @@ span {
     z-index: 1;
 }
 
-.start {
+.about {
     left: 1500px;
 }
 
 .products {
-    left: 1600px;
+    left: 1618px;
 }
 
 .contact {
