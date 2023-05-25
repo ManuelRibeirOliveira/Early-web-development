@@ -2,50 +2,40 @@ html {
     background-color: aliceblue;
 }
 
-.navtab {
-    position: fixed;
-    background-color: rgb(100, 130, 0);
-    height: 100px;
-    width: 1880px;
-    border: 2px solid rgb(255, 255, 0);
-    padding: 20px 0px 0px 0px;
-    margin: -28px 0px 0px -11px;
-    z-index: 0;
+header {
+    background-color: aqua;
+    height: 50px;
 }
 
-h1 {
-    position: fixed;
-    font-size: 50px;
-    left: 5px;
-    top: -25px;
+nav {
+    background-color: brown;
+    height: 80px;
+}
+
+main {
+    background-color: yellowgreen;
+    height: 1000px;
+}
+
+footer {
+    background-color: black;
+    height: 20px;
+}
+
+.links {
+    text-align: right;
+    
+}
+
+.title {
     text-align: left;
-    z-index: 1;
 }
 
-.limit {
-    background-color: rgb(180, 0, 0);
-    position: absolute;
-    width: 1843px;
-    height: 2000px;
-    border: 2px solid black;
-    z-index: -2;
-}
-
-span {
-    font-size: 20px;
-    position: fixed;
-    top: 40px;
-    z-index: 1;
-}
-
-.about {
-    left: 1500px;
-}
-
-.products {
-    left: 1618px;
-}
-
-.contact {
-    left: 1730px;
-}
+/* .navtab {
+    background-color: rgb(120, 200, 25);
+    border: 1px solid yellow;
+    width: 1877 px;
+    height: 100px;
+    top: 0px;
+    left: 0px;
+} */
