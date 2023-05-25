@@ -1,0 +1,50 @@
+html {
+    background-color: aliceblue;
+}
+
+.navtab {
+    position: fixed;
+    background-color: rgb(230, 230, 230);
+    height: 100px;
+    width: 1880px;
+    border: 1px solid black;
+    padding: 20px 0px 0px 0px;
+    margin: -28px 0px 0px -11px;
+    z-index: 0;
+}
+
+h1 {
+    position: fixed;
+    font-size: 50px;
+    left: 5px;
+    top: -25px;
+    text-align: left;
+    z-index: 1;
+}
+
+.limit {
+    position: absolute;
+    width: 1843px;
+    height: 2000px;
+    border: 2px solid black;
+    z-index: -2;
+}
+
+span {
+    font-size: 20px;
+    position: fixed;
+    top: 40px;
+    z-index: 1;
+}
+
+.start {
+    left: 1500px;
+}
+
+.products {
+    left: 1600px;
+}
+
+.contact {
+    left: 1730px;
+}
