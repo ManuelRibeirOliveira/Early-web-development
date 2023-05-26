@@ -29,7 +29,7 @@ main {
     margin-right: 100px;
     margin-top: 2px;
     border: 5px solid black;
-    height: 5000px;
+    height: 2200px;
     align-items: center;
 }
 
@@ -87,3 +87,13 @@ main {
     padding-left: 20px;
 }
 
+.contactus {
+    text-align: center;
+    font-size: 30px;
+    margin: 40px;
+}
+
+.contacts {
+    text-align: center;
+    font-size: 30px;
+}
