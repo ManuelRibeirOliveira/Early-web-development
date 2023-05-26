@@ -35,9 +35,9 @@ main {
 
 .links {
     font-size: 20px;
-    width: 14.8%;
+    width: auto;
     z-index: 2;
-    margin-left: 1550px;
+    margin-left: 1500px;
 }
 
 .title {
@@ -45,7 +45,7 @@ main {
     width: 16%;
     height: 100%;
     text-align: center;
-    margin-top: -5px;
+    margin-top: -10px;
     margin-bottom: -76px;
     z-index: 2;
 }
@@ -54,6 +54,8 @@ main {
     font-size: 20px;
     text-align: center;
     margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .aboutus {
@@ -80,4 +82,8 @@ main {
     margin-left: 50px;
     margin-bottom: 15px;
     margin-top: 30px;
+    font-size: 20px;
+    padding-top: 300px;
+    padding-left: 20px;
 }
+
