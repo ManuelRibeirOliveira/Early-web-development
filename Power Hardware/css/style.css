@@ -83,7 +83,7 @@ main {
     margin-bottom: 15px;
     margin-top: 30px;
     font-size: 20px;
-    padding-top: 280px;
+    padding-top: 20px;
     padding-left: 20px;
 }
 
@@ -96,4 +96,38 @@ main {
 .contacts {
     text-align: center;
     font-size: 30px;
+}
+
+.You {
+    color: rgb(240, 0, 0);
+}
+
+.twit {
+    color: rgb(0, 230, 230);
+}
+
+.tik {
+    color: black;
+}
+
+.ins {
+    color: rgb(255, 120, 210);
+}
+
+.face {
+    color: rgb(0, 0, 200);
+}
+
+.what {
+    color: rgb(0, 160, 0);
+}
+
+.images {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+img {
+    width: 260px;
+    height: 260px;
 }
