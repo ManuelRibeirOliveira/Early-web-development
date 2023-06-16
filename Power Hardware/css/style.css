@@ -5,7 +5,7 @@
 }
 
 html {
-    background-color: antiquewhite;
+    background-color: black;
 }
 
 header {
@@ -14,8 +14,9 @@ header {
 }
 
 nav {
-    background-color: rgb(100, 100, 100);
-    border: 4px solid rgb(60, 60, 60);
+    background-color: black;
+    border: 3px solid black;
+    border-radius: 10px;
     height: 100px;
     margin-left: -8px;
     margin-right: -8px;
@@ -24,12 +25,9 @@ nav {
 }
 
 main {
-    background-color: rgb(150, 150, 150);
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 2px;
-    border: 5px solid black;
-    height: 2200px;
+    background-color: black;
+    border: 5px solid rgb(0, 0, 0);
+    height: 2000px;
     align-items: center;
 }
 
@@ -40,7 +38,52 @@ main {
     margin-left: 1500px;
 }
 
-.title {
+.prod {
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: rgb(200, 200, 200);
+}
+
+.prod:hover {
+    text-decoration: none;
+    border: 1px solid rgb(20, 20, 255);
+    border-radius: 10px;
+    color: rgb(200, 200, 200);
+    box-shadow: 0px 0px 5px 5px rgb(0, 0, 255);
+}
+
+.abo {
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: rgb(200, 200, 200);
+}
+
+.abo:hover {
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 0);
+    border-radius: 10px;
+    color: rgb(200, 200, 200);
+    box-shadow: 0px 0px 5px 5px yellow;
+}
+
+.con {
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: rgb(200, 200, 200);
+}
+
+.con:hover {
+    text-decoration: none;
+    border: 1px solid rgb(120, 255, 120);
+    border-radius: 10px;
+    color: rgb(200, 200, 200);
+    box-shadow: 0px 0px 5px 5px rgb(0, 255, 0);
+}
+
+.titled {
     font-size: 25px;
     width: 16%;
     height: 100%;
@@ -50,117 +93,17 @@ main {
     z-index: 2;
 }
 
-.lotsoftext {
-    font-size: 20px;
-    text-align: center;
-    margin-top: 50px;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-.aboutus {
-    font-size: 30px;
-    text-align: center;
-}
-
-.products {
-    font-size: 30px;
-    text-align: center;
-    margin-top: 10px;
-}
-
-.costumeslayout {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-}
-
-.costumes {
-    border: 2px solid black;
-    background-color: gainsboro;
-    width: 300px;
-    height: 400px;
-    margin-left: 50px;
-    margin-bottom: 15px;
-    margin-top: 30px;
-    font-size: 20px;
-    padding-top: 20px;
-    padding-left: 20px;
-}
-
-.contactus {
-    text-align: center;
-    font-size: 30px;
-    margin: 40px;
-}
-
-.contacts {
-    text-align: center;
-    font-size: 30px;
-}
-
-.You {
-    color: rgb(240, 0, 0);
-}
-
-.twit {
-    color: rgb(0, 230, 230);
-}
-
-.tik {
-    color: black;
-}
-
-.ins {
-    color: rgb(255, 120, 210);
-}
-
-.face {
-    color: rgb(0, 0, 200);
-}
-
-.what {
-    color: rgb(0, 160, 0);
-}
-
-.images {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-}
-
-img {
-    width: 260px;
-    height: 260px;
-}
-
-.prod {
+.title {
+    text-decoration: none;
     border: 1px solid black;
-    background-color: rgb(200, 200, 200);
     border-radius: 10px;
+    color: rgb(200, 200, 200);
 }
 
-.prod:hover {
-    background-color: rgb(180, 180, 180);
-    box-shadow: 0px 0px 7px 0px black;
-}
-
-.abo {
-    border: 1px solid black;
-    background-color: rgb(200, 200, 200);
+.title:hover {
+    text-decoration: none;
+    border: 1px solid rgb(255, 120, 120);
     border-radius: 10px;
-}
-
-.abo:hover {
-    background-color: rgb(180, 180, 180);
-    box-shadow: 0px 0px 7px 0px black;
-}
-
-.con {
-    border: 1px solid black;
-    background-color: rgb(200, 200, 200);
-    border-radius: 10px;
-}
-
-.con:hover {
-    background-color: rgb(180, 180, 180);
-    box-shadow: 0px 0px 7px 0px black;
+    color: rgb(200, 200, 200);
+    box-shadow: 0px 0px 7px 7px red;
 }
