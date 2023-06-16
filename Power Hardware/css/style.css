@@ -155,3 +155,10 @@ main {
     width: 550px;
     z-index: 2;
 }
+
+.text {
+    color: white;
+    width: 50%;
+    margin-top: -500px;
+    margin-left: 820px;
+}
