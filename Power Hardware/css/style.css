@@ -27,60 +27,8 @@ nav {
 main {
     background-color: black;
     border: 5px solid rgb(0, 0, 0);
-    height: 2000px;
+    height: 600px;
     align-items: center;
-}
-
-.links {
-    font-size: 20px;
-    width: auto;
-    z-index: 2;
-    margin-left: 1500px;
-}
-
-.prod {
-    text-decoration: none;
-    border: 1px solid black;
-    border-radius: 10px;
-    color: rgb(200, 200, 200);
-}
-
-.prod:hover {
-    text-decoration: none;
-    border: 1px solid rgb(20, 20, 255);
-    border-radius: 10px;
-    color: rgb(200, 200, 200);
-    box-shadow: 0px 0px 5px 5px rgb(0, 0, 255);
-}
-
-.abo {
-    text-decoration: none;
-    border: 1px solid black;
-    border-radius: 10px;
-    color: rgb(200, 200, 200);
-}
-
-.abo:hover {
-    text-decoration: none;
-    border: 1px solid rgb(255, 255, 0);
-    border-radius: 10px;
-    color: rgb(200, 200, 200);
-    box-shadow: 0px 0px 5px 5px yellow;
-}
-
-.con {
-    text-decoration: none;
-    border: 1px solid black;
-    border-radius: 10px;
-    color: rgb(200, 200, 200);
-}
-
-.con:hover {
-    text-decoration: none;
-    border: 1px solid rgb(120, 255, 120);
-    border-radius: 10px;
-    color: rgb(200, 200, 200);
-    box-shadow: 0px 0px 5px 5px rgb(0, 255, 0);
 }
 
 .titled {
@@ -97,13 +45,113 @@ main {
     text-decoration: none;
     border: 1px solid black;
     border-radius: 10px;
-    color: rgb(200, 200, 200);
+    color: rgb(180, 180, 180);
 }
 
 .title:hover {
+    background-color: rgb(255, 120, 120);
     text-decoration: none;
     border: 1px solid rgb(255, 120, 120);
     border-radius: 10px;
-    color: rgb(200, 200, 200);
+    color: rgb(150, 150, 150);
     box-shadow: 0px 0px 7px 7px red;
+}
+
+.links {
+    font-size: 20px;
+    width: auto;
+    z-index: 2;
+    margin-left: 1500px;
+}
+
+.prod {
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+}
+
+.prod:hover {
+    background-color: rgb(20, 20, 255);
+    text-decoration: none;
+    border: 1px solid rgb(20, 20, 255);
+    border-radius: 10px;
+    color: rgb(150, 150, 150);
+    box-shadow: 0px 0px 5px 5px rgb(0, 0, 255);
+}
+
+.abo {
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+}
+
+.abo:hover {
+    background-color: yellow;
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 0);
+    border-radius: 10px;
+    color: rgb(150, 150, 150);
+    box-shadow: 0px 0px 5px 5px yellow;
+}
+
+.con {
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: rgb(180, 180, 180);
+}
+
+.con:hover {
+    background-color: rgb(120, 255, 120);
+    text-decoration: none;
+    border: 1px solid rgb(120, 255, 120);
+    border-radius: 10px;
+    color: rgb(150, 150, 150);
+    box-shadow: 0px 0px 5px 5px rgb(0, 255, 0);
+}
+
+.mainlayout {
+    display: grid;
+    height: 618px;
+    width: 800px;
+    grid-template-columns: auto auto;
+    grid-template-rows: 300px auto;
+}
+
+.leftgrid1 {
+    height: 300px;
+    width: 350px;
+    z-index: 1;
+}
+
+.leftgrid1:hover {
+    height: 400px;
+    width: 450px;
+    z-index: 2;
+}
+
+.leftgrid2 {
+    height: 300px;
+    width: 350px;
+    z-index: 1;
+}
+
+.leftgrid2:hover {
+    height: 400px;
+    width: 450px;
+    z-index: 2;
+}
+
+.rightgrid {
+    height: 600px;
+    width: 450px;
+    z-index: 1;
+}
+
+.rightgrid:hover {
+    height: 700px;
+    width: 550px;
+    z-index: 2;
 }
