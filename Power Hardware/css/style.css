@@ -1,4 +1,5 @@
 * {
+    text-decoration: none;
     box-sizing: border-box;
     font-family: 'Playfair', serif;
     font-family: 'Quicksand', sans-serif;
@@ -26,7 +27,7 @@ nav {
 
 main {
     background-color: black;
-    border: 5px solid rgb(0, 0, 0);
+    border: 5px solid black;
     height: 600px;
     align-items: center;
 }
@@ -112,6 +113,7 @@ main {
     box-shadow: 0px 0px 5px 5px rgb(0, 255, 0);
 }
 
+
 .mainlayout {
     display: grid;
     height: 618px;
@@ -130,6 +132,8 @@ main {
     height: 400px;
     width: 450px;
     z-index: 2;
+    border: 2px solid black;
+    box-shadow: 0px 0px 5px 5px rgb(105, 105, 105);
 }
 
 .leftgrid2 {
@@ -142,6 +146,8 @@ main {
     height: 400px;
     width: 450px;
     z-index: 2;
+    border: 2px solid black;
+    box-shadow: 0px 0px 5px 5px rgb(105, 105, 105);
 }
 
 .rightgrid {
@@ -154,6 +160,8 @@ main {
     height: 700px;
     width: 550px;
     z-index: 2;
+    border: 2px solid black;
+    box-shadow: 0px 0px 5px 5px rgb(105, 105, 105);
 }
 
 .text {
