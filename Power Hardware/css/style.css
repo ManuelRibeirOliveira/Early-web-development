@@ -129,8 +129,7 @@ main {
 }
 
 .leftgrid1:hover {
-    height: 400px;
-    width: 450px;
+    transform: scale(1.3);
     z-index: 2;
     border: 2px solid black;
     box-shadow: 0px 0px 5px 5px rgb(105, 105, 105);
@@ -143,8 +142,7 @@ main {
 }
 
 .leftgrid2:hover {
-    height: 400px;
-    width: 450px;
+    transform: scale(1.3);
     z-index: 2;
     border: 2px solid black;
     box-shadow: 0px 0px 5px 5px rgb(105, 105, 105);
@@ -157,8 +155,7 @@ main {
 }
 
 .rightgrid:hover {
-    height: 700px;
-    width: 550px;
+    transform: scale(1.2);
     z-index: 2;
     border: 2px solid black;
     box-shadow: 0px 0px 5px 5px rgb(105, 105, 105);
